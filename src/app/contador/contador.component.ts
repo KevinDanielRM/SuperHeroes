@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class ContadorComponent implements OnInit {
-  title = 'Web Contador';
-  numero = 10;
+  title = 'Cantidad de Poder';
+  numero = 1000;
   base = 5;
   constructor() { }
   

@@ -1,0 +1,16 @@
+<h1>
+    <b> Lista de Villanos </b> 
+    </h1>
+    <ul>
+    <li *ngFor="let malos of malos; let i= index">
+    <h2><i> {{ i + 1 }} - {{ malos }}</i> </h2>
+    <h3>Tiene un poder de: 
+    <button (click) = "acumular(base)">+{{base}}</button>
+    <!-- <button (click) = "sumar()">+1</button> -->
+    <span> {{numero}} </span>
+    <button (click) = "acumular(-base)">-{{base}}</button>
+    <!-- <button (click) = "restar()">-1</button> -->
+    </h3>
+    </li>
+    </ul>
+    
